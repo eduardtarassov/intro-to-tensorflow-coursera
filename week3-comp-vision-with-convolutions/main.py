@@ -1,5 +1,11 @@
 import tensorflow as tf
 print(tf.__version__)
+
+# Need this in order to fix the CUDNN_STATUS_INTERNAL_ERROR
+config = tf.ConfigProto()
+config.gpu_options.allow_growth = True
+session = tf.InteractiveSession(config=config)
+
 mnist = tf.keras.datasets.fashion_mnist
 (training_images, training_labels), (test_images, test_labels) = mnist.load_data()
 
@@ -27,3 +33,24 @@ model.summary()
 # but it's too specialised to only that data, and as a result is less effective at seeing other data
 model.fit(training_images, training_labels, epochs=5)
 test_loss = model.evaluate(test_images, test_labels)
+
+
+import matplotlib.pyplot as plt
+f, axarr = plt.subplots(3,4)
+FIRST_IMAGE=0
+SECOND_IMAGE=7
+THIRD_IMAGE=26
+CONVOLUTION_NUMBER = 1
+layer_outputs = [layer.output for layer in model.layers]
+activation_model = tf.keras.models.Model(inputs = model.input, outputs = layer_outputs)
+for x in range(0,4):
+  f1 = activation_model.predict(test_images[FIRST_IMAGE].reshape(1, 28, 28, 1))[x]
+  axarr[0,x].imshow(f1[0, : , :, CONVOLUTION_NUMBER], cmap='inferno')
+  axarr[0,x].grid(False)
+  f2 = activation_model.predict(test_images[SECOND_IMAGE].reshape(1, 28, 28, 1))[x]
+  axarr[1,x].imshow(f2[0, : , :, CONVOLUTION_NUMBER], cmap='inferno')
+  axarr[1,x].grid(False)
+  f3 = activation_model.predict(test_images[THIRD_IMAGE].reshape(1, 28, 28, 1))[x]
+  axarr[2,x].imshow(f3[0, : , :, CONVOLUTION_NUMBER], cmap='inferno')
+  axarr[2,x].grid(False)
+plt.show()
