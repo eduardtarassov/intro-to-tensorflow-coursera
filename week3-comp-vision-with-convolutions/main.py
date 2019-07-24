@@ -1,6 +1,17 @@
 import tensorflow as tf
 print(tf.__version__)
 
+
+class myCallback(tf.keras.callbacks.Callback):
+  def on_epoch_end(self, epoch, logs={}):
+    if logs.get('acc') > 0.90:
+      print("\nReached 90% accuracy so cancelling training!")
+      self.model.stop_training = True
+
+
+callbacks = myCallback()
+
+
 # Need this in order to fix the CUDNN_STATUS_INTERNAL_ERROR
 config = tf.ConfigProto()
 config.gpu_options.allow_growth = True
@@ -19,9 +30,9 @@ test_images=test_images/255.0
 
 #Added convolution + pooling + convolution + pooling = increased accuracy significantly.
 model = tf.keras.models.Sequential([
-  tf.keras.layers.Conv2D(64, (3,3), activation='relu', input_shape=(28, 28, 1)),
+  tf.keras.layers.Conv2D(32, (3,3), activation='relu', input_shape=(28, 28, 1)),
   tf.keras.layers.MaxPooling2D(2, 2),
-  tf.keras.layers.Conv2D(64, (3,3), activation='relu'),
+  tf.keras.layers.Conv2D(32, (3,3), activation='relu'),
   tf.keras.layers.MaxPooling2D(2,2),
   tf.keras.layers.Flatten(),
   tf.keras.layers.Dense(128, activation='relu'),
@@ -31,8 +42,12 @@ model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=
 model.summary()
 # Too many epochs might cause overfitting - network learns the data from the training set really well,
 # but it's too specialised to only that data, and as a result is less effective at seeing other data
-model.fit(training_images, training_labels, epochs=5)
-test_loss = model.evaluate(test_images, test_labels)
+model.fit(training_images, training_labels, epochs=5, callbacks=[callbacks])
+print("-----------------------------------------------------")
+model.evaluate(test_images, test_labels)
+
+print("=====================================================")
+model.predict(test_images)
 
 
 import matplotlib.pyplot as plt
