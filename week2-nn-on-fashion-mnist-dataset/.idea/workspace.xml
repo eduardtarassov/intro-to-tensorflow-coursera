@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e800eac-f161-46f3-8776-e478447b2723" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../week2-nn-handwriting-recognition/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week2-nn-handwriting-recognition/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../week3-comp-vision-with-convolutions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week3-comp-vision-with-convolutions/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3-comp-vision-with-convolutions/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../week3-comp-vision-with-convolutions/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="61" column="44" lean-forward="true" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
+            <state relative-caret-position="462">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -39,9 +37,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="x" value="2741" />
+    <option name="y" value="226" />
+    <option name="width" value="974" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -143,15 +142,16 @@
       <workItem from="1563048903427" duration="1265000" />
       <workItem from="1563115729268" duration="597000" />
       <workItem from="1563216130446" duration="1233000" />
-      <workItem from="1563995698681" duration="773000" />
+      <workItem from="1563995698681" duration="811000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12215000" />
+    <option name="totallyTimeSpent" value="12253000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="1912" y="0" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13219616" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -182,8 +182,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="61" column="44" lean-forward="true" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
+        <state relative-caret-position="462">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
