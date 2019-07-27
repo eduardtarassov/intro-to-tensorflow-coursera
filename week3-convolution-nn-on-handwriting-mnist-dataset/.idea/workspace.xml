@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ceb86860-d0cf-4d80-a831-de33970a577e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../week3-convolution-nn-on-handwriting-mnist-dataset/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week3-convolution-nn-on-handwriting-mnist-dataset/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week3-convolution-nn-on-handwriting-mnist-dataset/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week3-convolution-nn-on-handwriting-mnist-dataset/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week3-convolution-nn-on-handwriting-mnist-dataset/.idea/week3-convolution-nn-on-handwriting-mnist-dataset.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week3-convolution-nn-on-handwriting-mnist-dataset/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week3-convolution-nn-on-handwriting-mnist-dataset/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week3-convolution-nn-on-handwriting-mnist-dataset/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week3-convolution-nn-on-handwriting-mnist-dataset/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d0ba7502-8cc5-4b21-9d2a-e17a1567f0c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/week3-convolution-nn-on-handwriting-mnist-dataset.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week2-nn-handwriting-recognition/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week2-nn-handwriting-recognition/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../week3-comp-vision-with-convolutions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week3-comp-vision-with-convolutions/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../week3-comp-vision-with-convolutions/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../week3-comp-vision-with-convolutions/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../week3-handwritten-convolution-and-pooling/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week3-handwritten-convolution-and-pooling/.idea/workspace.xml" afterDir="false" />
@@ -27,20 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="17">
-                <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="203">
+              <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -54,11 +42,21 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/week3-convolution-nn-on-handwriting-mnist-dataset.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/other.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -74,8 +72,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="week2-nn-handwriting-recognition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="week2-nn-handwriting-recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="week3-convolution-nn-on-handwriting-mnist-dataset" type="b2602c69:ProjectViewProjectNode" />
+              <item name="week3-convolution-nn-on-handwriting-mnist-dataset" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -87,7 +85,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../week2-nn-handwriting-recognition" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -106,7 +104,7 @@
   </component>
   <component name="RunManager">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="week2-nn-handwriting-recognition" />
+      <module name="week3-convolution-nn-on-handwriting-mnist-dataset" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -127,13 +125,10 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="week2-nn-handwriting-recognition" type="PythonConfigurationType" factoryName="Python">
-      <module name="week2-nn-handwriting-recognition" />
+    <configuration name="week3-convolution-nn-on-handwriting-mnist-dataset" type="PythonConfigurationType" factoryName="Python">
+      <module name="week3-convolution-nn-on-handwriting-mnist-dataset" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="C:\Users\Eduard\Anaconda3\envs\DEV\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
@@ -155,30 +150,24 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ceb86860-d0cf-4d80-a831-de33970a577e" name="Default Changelist" comment="" />
-      <created>1563048839005</created>
+      <changelist id="d0ba7502-8cc5-4b21-9d2a-e17a1567f0c4" name="Default Changelist" comment="" />
+      <created>1564037442943</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1563048839005</updated>
-      <workItem from="1563048840249" duration="1327000" />
-      <workItem from="1563115732814" duration="913000" />
-      <workItem from="1563216130422" duration="1654000" />
-      <workItem from="1563970865717" duration="43000" />
-      <workItem from="1563995177223" duration="520000" />
-      <workItem from="1564038122994" duration="9000" />
-      <workItem from="1564040586917" duration="600000" />
-      <workItem from="1564131550799" duration="599000" />
+      <updated>1564037442943</updated>
+      <workItem from="1564037444094" duration="5865000" />
+      <workItem from="1564131544642" duration="1432000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5665000" />
+    <option name="totallyTimeSpent" value="7297000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10927505" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -192,12 +181,12 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32583067" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.4599567" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3290461" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.37299034" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.32995737" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -207,18 +196,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="17">
-            <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
-          </first_editor>
-          <second_editor />
+        <state relative-caret-position="203">
+          <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
         </state>
       </provider>
     </entry>

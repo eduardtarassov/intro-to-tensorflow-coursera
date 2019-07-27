@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56bd68bd-aa0c-472f-8668-4801bf26667c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../week3-handwritten-convolution-and-pooling/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week3-handwritten-convolution-and-pooling/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week3-handwritten-convolution-and-pooling/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week3-handwritten-convolution-and-pooling/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week2-nn-on-fashion-mnist-dataset/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week2-nn-on-fashion-mnist-dataset/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week3-convolution-nn-on-handwriting-mnist-dataset/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week3-convolution-nn-on-handwriting-mnist-dataset/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week3-convolution-nn-on-handwriting-mnist-dataset/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week3-convolution-nn-on-handwriting-mnist-dataset/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week3-convolution-nn-on-handwriting-mnist-dataset/.idea/week3-convolution-nn-on-handwriting-mnist-dataset.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week3-convolution-nn-on-handwriting-mnist-dataset/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week3-convolution-nn-on-handwriting-mnist-dataset/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week3-convolution-nn-on-handwriting-mnist-dataset/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week3-convolution-nn-on-handwriting-mnist-dataset/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week2-nn-handwriting-recognition/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week2-nn-handwriting-recognition/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week3-handwritten-convolution-and-pooling/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week3-handwritten-convolution-and-pooling/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+              <caret line="49" column="62" lean-forward="true" selection-start-line="49" selection-start-column="62" selection-end-line="49" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -70,11 +77,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="974" />
-    <option name="height" value="1057" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -82,7 +89,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -94,6 +100,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -179,17 +186,19 @@
       <workItem from="1563912834998" duration="2867000" />
       <workItem from="1563970868779" duration="6337000" />
       <workItem from="1564002085601" duration="1009000" />
+      <workItem from="1564036303632" duration="3910000" />
+      <workItem from="1564131548990" duration="1798000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24511000" />
+    <option name="totallyTimeSpent" value="30219000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.06823028" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.069296375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -208,7 +217,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.44829425" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.124200426" />
       <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
     </layout>
   </component>
@@ -220,7 +229,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>70</line>
+          <line>71</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
@@ -233,7 +242,7 @@
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+          <caret line="49" column="62" lean-forward="true" selection-start-line="49" selection-start-column="62" selection-end-line="49" selection-end-column="62" />
         </state>
       </provider>
     </entry>
